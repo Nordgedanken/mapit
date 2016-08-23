@@ -16,6 +16,7 @@ def is_valid_postcode(pc):
         return True
     return False
 
+
 def area_code_lookup(request, area_code, format):
     from mapit.models import Area, CodeType
     area_code_type = None
@@ -49,8 +50,10 @@ def area_code_lookup(request, area_code, format):
         redirect_path += "?" + request.META['QUERY_STRING']
     return HttpResponseRedirect(redirect_path)
 
+
 def get_postcode_display(pc):
     return re.sub('([0-9]..)$', r' \1', pc).strip()
+
 
 # Hacky function to restrict certain geographical links in the HTML pages to
 # types to make them more likely to return results.
