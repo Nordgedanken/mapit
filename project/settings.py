@@ -93,10 +93,27 @@ ALLOWED_HOSTS = ['*']
 # system time zone.
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-if MAPIT_COUNTRY == 'DE':
-    TIME_ZONE = 'Europe/Berlin'
-    LANGUAGE_CODE = 'de-DE'
+if MAPIT_COUNTRY == 'GB':
+    TIME_ZONE = 'Europe/London'
+    LANGUAGE_CODE = 'en-gb'
+    POSTCODES_AVAILABLE = PARTIAL_POSTCODES_AVAILABLE = True
+elif MAPIT_COUNTRY == 'NO':
+    TIME_ZONE = 'Europe/Oslo'
+    LANGUAGE_CODE = 'no'
+    POSTCODES_AVAILABLE = PARTIAL_POSTCODES_AVAILABLE = True
+elif MAPIT_COUNTRY == 'IT':
+    TIME_ZONE = 'Europe/Rome'
+    LANGUAGE_CODE = 'it'
     POSTCODES_AVAILABLE = True
+    PARTIAL_POSTCODES_AVAILABLE = False
+elif MAPIT_COUNTRY == 'ZA':
+    TIME_ZONE = 'Africa/Johannesburg'
+    LANGUAGE_CODE = 'en-za'
+    POSTCODES_AVAILABLE = PARTIAL_POSTCODES_AVAILABLE = False
+elif MAPIT_COUNTRY == 'Global':
+    TIME_ZONE = 'Europe/London'
+    LANGUAGE_CODE = 'en'
+    POSTCODES_AVAILABLE = PARTIAL_POSTCODES_AVAILABLE = False
 else:
     TIME_ZONE = 'Europe/London'
     LANGUAGE_CODE = 'en'

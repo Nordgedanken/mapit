@@ -1,7 +1,7 @@
 from django.test import TestCase
 
 from mapit.models import Type, Area, Generation, Name, NameType
-import mapit_de.countries
+import mapit_gb.countries
 import mapit.models
 
 
@@ -29,10 +29,10 @@ class NamesTest(TestCase):
             generation_high=self.generation,
         )
 
-    def test_new_name_changes_area_name_in_de(self):
+    def test_new_name_changes_area_name_in_gb(self):
         """We can't use override_settings, as mapit.countries has been set
         based upon MAPIT_COUNTRY already in initial import"""
-        mapit.models.countries = mapit_de.countries
+        mapit.models.countries = mapit_gb.countries
         Name.objects.create(name='New Name (B)', type=self.name_type, area=self.area)
         self.assertEqual(self.area.name, 'New Name Borough')
 
