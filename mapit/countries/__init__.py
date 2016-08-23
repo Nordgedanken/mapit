@@ -12,3 +12,5 @@ elif settings.MAPIT_COUNTRY == 'ZA':
     from mapit_za.countries import *  # noqa
 elif settings.MAPIT_COUNTRY == 'Global':
     from mapit_global.countries import *  # noqa
+elif settings.MAPIT_COUNTRY == 'DE':
+    from mapit_de.countries import *  # noqa

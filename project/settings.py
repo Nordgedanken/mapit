@@ -114,6 +114,10 @@ elif MAPIT_COUNTRY == 'Global':
     TIME_ZONE = 'Europe/London'
     LANGUAGE_CODE = 'en'
     POSTCODES_AVAILABLE = PARTIAL_POSTCODES_AVAILABLE = False
+elif MAPIT_COUNTRY == 'DE':
+    TIME_ZONE = 'Europe/Berlin'
+    LANGUAGE_CODE = 'de'
+    POSTCODES_AVAILABLE = True
 else:
     TIME_ZONE = 'Europe/London'
     LANGUAGE_CODE = 'en'

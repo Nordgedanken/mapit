@@ -65,3 +65,7 @@ if settings.MAPIT_COUNTRY == 'IT':
     urlpatterns.append(
         url(r'^', include('mapit_it.urls')),
     )
+if (settings.MAPIT_COUNTRY == 'DE'):
+    urlpatterns.append(
+        url(r'^', include('mapit_de.urls')),
+    )
