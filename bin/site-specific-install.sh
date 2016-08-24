@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PARENT_SCRIPT_URL=https://github.com/mysociety/commonlib/blob/master/bin/install-site.sh
+PARENT_SCRIPT_URL=https://github.com/Nordgedanken/mapit-docker/blob/master/install-site.sh
 
 misuse() {
   echo The variable $1 was not defined, and it should be.

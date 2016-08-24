@@ -57,7 +57,7 @@ if [ ! -f conf/general.yml ]; then
     sed -r \
         -e "s,^( *MAPIT_DB_NAME:).*,\\1 '$DB_NAME'," \
         -e "s,^( *MAPIT_DB_USER:).*,\\1 '$UNIX_USER'," \
-        -e "s,^( *COUNTRY:).*,\\1 ''," \
+        -e "s,^( *COUNTRY:).*,\\1 'DE'," \
         -e "s,^( *AREA_SRID:).*,\\1 4326," \
         -e "s,^( *DJANGO_SECRET_KEY:).*,\\1 '$RANDOM_STRING'," \
         conf/general.yml-example > conf/general.yml
