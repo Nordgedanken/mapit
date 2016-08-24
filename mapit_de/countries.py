@@ -1,9 +1,5 @@
 import re
 
-from django.core.urlresolvers import reverse, NoReverseMatch
-from django.http import HttpResponseRedirect
-
-from mapit.shortcuts import get_object_or_404
 
 # SRID to also output area geometry information in
 area_geometry_srid = 4326
