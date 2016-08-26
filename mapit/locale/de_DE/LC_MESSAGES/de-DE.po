@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2016-08-26 10:57+0000\n"
+"PO-Revision-Date: 2016-08-26 10:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "kml or json or wkt"
+msgstr "kml oder json oder wkt"
+
+msgid "<em>lookup</em> related areas"
+msgstr "<em>zeig</em> zugehörige Gebiete"
+
+msgid "Example applications"
+msgstr "Beispiel Anwendungen"
+
+msgid "MapIt can be used for all sorts of websites and applications. For example"
+msgstr "Mapit kann für alle Arten von Webseiten und Anwendungen genutzt werden. Zum Beispiel"
+
+msgid "MapIt can be used for the following"
+msgstr "Mapit kann für das folgende verwendet werden"
+
+msgid "Possible uses"
+msgstr "Mögliche Nutzen"
+
+msgid "Rate limiting"
+msgstr "Zugriffsbeschränkung"
+
+msgid "WGS84 lat/lon"
+msgstr "WGS84 lat/lon"
+
+msgid "Results for “%(postcode)s”"
+msgstr "Ergebnisse für: \"%(postcode)s\""
+
