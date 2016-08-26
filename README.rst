@@ -1,6 +1,9 @@
 MapIt
 =====
 
+Help translating to German!!! https://mtrnord.oneskyapp.com/admin/project/dashboard/project/79140
+=================================================================================================
+
 MapIt is an open source project to help people run a web service that maps
 geographical points to administrative areas. It is useful for anyone who has
 the co-ordinates of a point on Earth, and who needs to find out what country,
